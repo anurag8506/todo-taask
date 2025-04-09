@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+.custome-padding{
+  padding-left:150px;
+  padding-right:150px;
+}
+.marquee-anim{
+  animation: marquee-anim 15s linear infinite;
+}
+@keyframes marquee-anim {
+  0%{
+    transform: translateX(0vw);
+  }
+  100%{
+    transform: translateX(-100vw);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width:500px) { 
+  .menu-height{
+    height: calc(100vh - 70px);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

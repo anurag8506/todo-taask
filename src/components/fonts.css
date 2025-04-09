@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'Syne-SemiBold';
+    src: url('./fonts/Syne/static/Syne-SemiBold.ttf') ,
+          
+  }
+  
+  @font-face {
+    font-family: 'Syne-ExtraBold';
+    src: url('./fonts/Syne/static/Syne-ExtraBold.ttf') ,
+          
+  }
+
+  @font-face {
+    font-family: 'Syne-Medium';
+    src: url('./fonts/Syne/static/Syne-Medium.ttf') ,
+          
+  }
+  @font-face {
+    font-family: 'Syne-font';
+    src: url('./fonts/Syne/Syne-VariableFont_wght.ttf') ,
+          
+  }
+  @font-face {
+    font-family: 'Syne-Regular';
+    src: url('./fonts/Syne/static/Syne-Regular.ttf') ,
+          
+  }
+  @font-face {
+    font-family: 'Syne-ExtraBold';
+    src: url('./fonts/Syne/static/Syne-ExtraBold.ttf') ,
+          
+  }
+  @font-face {
+    font-family: 'Syne-Bold';
+    src: url('./fonts/Syne/static/Syne-Bold.ttf') ,
+          
+  }
+
+
+  .ff-syne{
+    font-family: 'Syne-font';
+  }
+  .Syne-EB{
+    font-family: 'Syne-ExtraBold';
+  }
+  .Syne-SB{
+    font-family: 'Syne-SemiBold';
+  }
+  .Syne-BB{
+    font-family: 'Syne-Bold';
+  }
+  .Syne-MD{
+    font-family: 'Syne-Medium';
+  }
+  .Syne-Regular{
+    font-family: 'Syne-Regular';
+  }
+
